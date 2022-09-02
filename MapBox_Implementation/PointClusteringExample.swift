@@ -52,6 +52,11 @@ public class PointClusteringExample: UIViewController, ExampleProtocol {
                     )
                     let annotation = CustomAnnotatoinView.getView()
                     try? self.mapView.viewAnnotations.add(annotation, options: options)
+                    let myView = CustomAnnotatoinView()
+                    myView.transform = CGAffineTransform(scaleX: 0, y: 0)
+                    UIView.animate(withDuration: 3) {
+                    myView.transform = .identity
+                    }
                 }
                 
             }
@@ -95,5 +100,13 @@ extension UIView {
             UIGraphicsEndImageContext()
             return UIImage(cgImage: image!.cgImage!)
         }
+    }
+}
+extension UIImageView{
+    func setImage(_ image: UIImage?, animated: Bool = true) {
+        let duration = animated ? 0.75 : 0.0
+        UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: {
+            self.image = image
+        }, completion: nil)
     }
 }

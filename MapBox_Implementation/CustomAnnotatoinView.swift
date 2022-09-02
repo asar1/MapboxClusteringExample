@@ -8,6 +8,7 @@ import UIKit
 
 class CustomAnnotatoinView: UIView {
  
+    @IBOutlet weak var img: UIImageView!
     static func getView() -> UIView {
         let view = Bundle.main.loadNibNamed("CustomAnnotatoinView", owner: nil, options: [:])?.first as! UIView
         return view
