@@ -1,0 +1,33 @@
+PODS:
+  - MapboxCommon (22.1.0)
+  - MapboxCoreMaps (10.7.0):
+    - MapboxCommon (~> 22.1)
+  - MapboxMaps (10.7.0):
+    - MapboxCommon (= 22.1.0)
+    - MapboxCoreMaps (= 10.7.0)
+    - MapboxMobileEvents (= 1.0.8)
+    - Turf (~> 2.0)
+  - MapboxMobileEvents (1.0.8)
+  - Turf (2.5.0)
+
+DEPENDENCIES:
+  - MapboxMaps (= 10.7.0)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - MapboxMobileEvents
+    - Turf
+
+SPEC CHECKSUMS:
+  MapboxCommon: 1e26303f61682e6307a10162792ea0f018d037b9
+  MapboxCoreMaps: 929f2cf9de62782347db31d6c04dc1b6b4ba80ad
+  MapboxMaps: c7df1efe838d7acb54929ada9ee735949137fde9
+  MapboxMobileEvents: febdd92835daa258ca1c1faad0821c0b3394ef40
+  Turf: 8adf034c2963a0e587b979c51b5c12c396e29c44
+
+PODFILE CHECKSUM: becd2bd0c92067aa6ab602a142a37243ba37c8cc
+
+COCOAPODS: 1.11.3
