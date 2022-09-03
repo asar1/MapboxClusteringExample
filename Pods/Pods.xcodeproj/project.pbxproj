@@ -17,6 +17,7 @@
 				B00E5A17B63AB7BD150C802350905F3F /* PBXTargetDependency */,
 			);
 			name = MapboxCoreMaps;
+			productName = MapboxCoreMaps;
 		};
 		5638B5E625AB73DE90E61BF1C58289AD /* MapboxCommon */ = {
 			isa = PBXAggregateTarget;
@@ -27,6 +28,7 @@
 			dependencies = (
 			);
 			name = MapboxCommon;
+			productName = MapboxCommon;
 		};
 		F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */ = {
 			isa = PBXAggregateTarget;
@@ -37,6 +39,7 @@
 			dependencies = (
 			);
 			name = MapboxMobileEvents;
+			productName = MapboxMobileEvents;
 		};
 /* End PBXAggregateTarget section */
 
@@ -486,7 +489,7 @@
 		2ADB7D2A795DE0486393ECF2E146979E /* NSValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSValue.swift; path = Sources/MapboxMaps/Foundation/Extensions/NSValue.swift; sourceTree = "<group>"; };
 		2BDE0EAC633A28DD3712FCEBB031C1EE /* Pods-MapBox_Implementation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapBox_Implementation-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C27B72B270D6A66CBF059C0F0D7A9FD /* TilesetDescriptorOptionsForTilesets+MapboxMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TilesetDescriptorOptionsForTilesets+MapboxMaps.swift"; path = "Sources/MapboxMaps/Offline/TilesetDescriptorOptionsForTilesets+MapboxMaps.swift"; sourceTree = "<group>"; };
-		2D3C1FFC3557A2D8BF37B0DC78F66097 /* MapboxMobileEvents.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MapboxMobileEvents.xcframework; sourceTree = "<group>"; };
+		2D3C1FFC3557A2D8BF37B0DC78F66097 /* MapboxMobileEvents.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = MapboxMobileEvents.xcframework; sourceTree = "<group>"; };
 		2D764EDC37D395EAE69CAFC68F6E9DAC /* ResolvedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResolvedImage.swift; path = Sources/MapboxMaps/Style/Types/ResolvedImage.swift; sourceTree = "<group>"; };
 		2E404E1110D6784664EEE37F61E581AB /* StyleManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleManagerProtocol.swift; path = Sources/MapboxMaps/Style/StyleManagerProtocol.swift; sourceTree = "<group>"; };
 		30431E4E02EEAA8FC72595EE02CF11AD /* KebabCaseKeyDecodingStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KebabCaseKeyDecodingStrategy.swift; path = Sources/MapboxMaps/Foundation/Extensions/KebabCaseKeyDecodingStrategy.swift; sourceTree = "<group>"; };
@@ -542,7 +545,7 @@
 		4D774EAC9FD4283C52669D423B528A2F /* CompassDirectionShort.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CompassDirectionShort.strings; path = ja.lproj/CompassDirectionShort.strings; sourceTree = "<group>"; };
 		4DEDCEC50EFD9A0BA2DF9FF4F139FAC2 /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = Sources/MapboxMaps/Foundation/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
 		4FDF10E95E38046CD81C3D6C16CE2E25 /* DefaultViewportTransitionAnimationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultViewportTransitionAnimationFactory.swift; path = Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimationFactory.swift; sourceTree = "<group>"; };
-		504CE9473CDB9F0B95C72BA4BF8F4273 /* Turf */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turf; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504CE9473CDB9F0B95C72BA4BF8F4273 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5334C1830F584B8DB8C4AC6675953DAB /* QueriedFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueriedFeature.swift; path = Sources/MapboxMaps/Foundation/Extensions/Core/QueriedFeature.swift; sourceTree = "<group>"; };
 		53B37F3BA53722A55D96799EB4F7E2B2 /* MapFeatureQueryable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapFeatureQueryable.swift; path = Sources/MapboxMaps/Foundation/MapFeatureQueryable.swift; sourceTree = "<group>"; };
 		55AA7ECEC40BF4A8BEF1A1C1B11FD5D3 /* AttributionDialogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributionDialogManager.swift; path = Sources/MapboxMaps/Style/AttributionDialogManager.swift; sourceTree = "<group>"; };
@@ -590,7 +593,7 @@
 		6D0AF14E0ACB37129B97562D3CB7822F /* RasterDemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RasterDemSource.swift; path = Sources/MapboxMaps/Style/Generated/Sources/RasterDemSource.swift; sourceTree = "<group>"; };
 		6DAC1932AA03F5D30B9B8F4F49A62F08 /* TileStore+MapboxMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TileStore+MapboxMaps.swift"; path = "Sources/MapboxMaps/Offline/TileStore+MapboxMaps.swift"; sourceTree = "<group>"; };
 		6E22924C29E422804FA75510E0B631EB /* PinchBehaviorProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinchBehaviorProvider.swift; path = Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/PinchBehaviorProvider.swift; sourceTree = "<group>"; };
-		6E6CD80661687B39BD2D45E45AA724F7 /* MapboxMaps */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxMaps; path = MapboxMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6CD80661687B39BD2D45E45AA724F7 /* MapboxMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8D352C6B343A967D316DA7254431D4 /* Puck3D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Puck3D.swift; path = Sources/MapboxMaps/Location/Puck/Puck3D.swift; sourceTree = "<group>"; };
 		6EC3073FA518A02C0370CD56EEABD5C3 /* Turf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Turf.h; path = Sources/Turf/Turf.h; sourceTree = "<group>"; };
 		6F6E41832449CE0B819EE1EE53F65224 /* FlyToCameraAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlyToCameraAnimator.swift; path = Sources/MapboxMaps/Camera/FlyToCameraAnimator.swift; sourceTree = "<group>"; };
@@ -654,7 +657,7 @@
 		9C20B3267EE6A091078F3DE5D44110FE /* CompassDirectionShort.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CompassDirectionShort.strings; path = ko.lproj/CompassDirectionShort.strings; sourceTree = "<group>"; };
 		9D03866BE9E190C6EA0C23AE0C87DB3C /* DefaultViewportTransitionAnimationSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultViewportTransitionAnimationSpec.swift; path = Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimationSpec.swift; sourceTree = "<group>"; };
 		9D66786D7F085724FC92D112919478D4 /* DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Sources/MapboxMaps/Foundation/Extensions/DateFormatter.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9AA48A694C2991BF0C26DDF9B9BD1C /* FillLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillLayer.swift; path = Sources/MapboxMaps/Style/Generated/Layers/FillLayer.swift; sourceTree = "<group>"; };
 		9EEEDFEED34CF5B491C493BD7EF0D066 /* CompassDirectionShort.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CompassDirectionShort.strings; path = "zh-Hant.lproj/CompassDirectionShort.strings"; sourceTree = "<group>"; };
 		9F415987880C2C11142B97FB83719F0B /* ViewportStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewportStatus.swift; path = Sources/MapboxMaps/Viewport/ViewportStatus.swift; sourceTree = "<group>"; };
@@ -694,7 +697,7 @@
 		AFD4265186F1F493EA37E95C180FAF37 /* Puck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Puck.swift; path = Sources/MapboxMaps/Location/Puck/Puck.swift; sourceTree = "<group>"; };
 		B03032ED3B20100F11E2A7C84F6847BA /* MultiPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiPoint.swift; path = Sources/Turf/Geometries/MultiPoint.swift; sourceTree = "<group>"; };
 		B22FDB30D884F3AA71A839B6C01EF86B /* LocationProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationProducer.swift; path = Sources/MapboxMaps/Location/LocationProducer.swift; sourceTree = "<group>"; };
-		B293EAD8BC54C5A5531F8984566D4863 /* MapboxCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MapboxCommon.xcframework; sourceTree = "<group>"; };
+		B293EAD8BC54C5A5531F8984566D4863 /* MapboxCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = MapboxCommon.xcframework; sourceTree = "<group>"; };
 		B29F826C6CEFFA5ADF55C4159689AD5F /* EventsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventsManager.swift; path = Sources/MapboxMaps/Foundation/Events/EventsManager.swift; sourceTree = "<group>"; };
 		B43FC912E5308AE8A25A31A43B59DB52 /* GeoJSONSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoJSONSource.swift; path = Sources/MapboxMaps/Style/Generated/Sources/GeoJSONSource.swift; sourceTree = "<group>"; };
 		B498104250AE66E612486685D49A2398 /* CoordinateBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinateBounds.swift; path = Sources/MapboxMaps/Foundation/Extensions/Core/CoordinateBounds.swift; sourceTree = "<group>"; };
@@ -711,7 +714,7 @@
 		C1A96FD85E76DF83B6977F6AB4EECC9C /* ForwardingDispalyLinkTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForwardingDispalyLinkTarget.swift; path = Sources/MapboxMaps/Foundation/ForwardingDispalyLinkTarget.swift; sourceTree = "<group>"; };
 		C25D73678B10014130F8A7895CB89748 /* OfflineCallbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OfflineCallbacks.swift; path = Sources/MapboxMaps/Offline/OfflineCallbacks.swift; sourceTree = "<group>"; };
 		C2F5579D95B1FD5CC3EA03B2E05088DB /* SymbolLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolLayer.swift; path = Sources/MapboxMaps/Style/Generated/Layers/SymbolLayer.swift; sourceTree = "<group>"; };
-		C3094A3D30CC114972F4D694E397AEC7 /* MapboxMaps.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MapboxMaps.json; path = Sources/MapboxMaps/MapboxMaps.json; sourceTree = "<group>"; };
+		C3094A3D30CC114972F4D694E397AEC7 /* MapboxMaps.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = MapboxMaps.json; path = Sources/MapboxMaps/MapboxMaps.json; sourceTree = "<group>"; };
 		C40E171D0F7B5D3CA6BC3FED8028C6CA /* RadianCoordinate2D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadianCoordinate2D.swift; path = Sources/Turf/RadianCoordinate2D.swift; sourceTree = "<group>"; };
 		C45072BE131D3575EA9B7603E61813B2 /* MapboxScaleBarLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapboxScaleBarLabel.swift; path = Sources/MapboxMaps/Ornaments/ScaleBar/MapboxScaleBarLabel.swift; sourceTree = "<group>"; };
 		C4D03D80EF54E73E609DE8E465278BDC /* CompassDirectionLong.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CompassDirectionLong.strings; path = uk.lproj/CompassDirectionLong.strings; sourceTree = "<group>"; };
@@ -770,7 +773,7 @@
 		EB54C3BB2C20AF145AAA01FA49AC260E /* BundleProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleProtocol.swift; path = Sources/MapboxMaps/Foundation/BundleProtocol.swift; sourceTree = "<group>"; };
 		EB62FE28E347517168C8C05049AE60A8 /* GestureType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureType.swift; path = Sources/MapboxMaps/Gestures/GestureType.swift; sourceTree = "<group>"; };
 		EC37336391A4C5F474ADA4CD24093123 /* ExpressionArgumentBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpressionArgumentBuilder.swift; path = Sources/MapboxMaps/Style/Types/ExpressionArgumentBuilder.swift; sourceTree = "<group>"; };
-		ECAAC3FA584BFCE7B6CC2760F299BB3C /* MapboxCoreMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MapboxCoreMaps.xcframework; sourceTree = "<group>"; };
+		ECAAC3FA584BFCE7B6CC2760F299BB3C /* MapboxCoreMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = MapboxCoreMaps.xcframework; sourceTree = "<group>"; };
 		ED8EAC3521574A951E3C0AD69B05E18D /* LayerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerType.swift; path = Sources/MapboxMaps/Style/LayerType.swift; sourceTree = "<group>"; };
 		EDCB111F31CA28CD86363D4589E3D2CA /* OrnamentsLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = OrnamentsLocalizable.strings; path = en.lproj/OrnamentsLocalizable.strings; sourceTree = "<group>"; };
 		EF9A77B87C2E174CB420509068F23D78 /* CompassDirectionShort.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CompassDirectionShort.strings; path = en.lproj/CompassDirectionShort.strings; sourceTree = "<group>"; };
@@ -786,7 +789,7 @@
 		F506124FAD22B41A0FECD8190D6F0E83 /* Enablable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enablable.swift; path = Sources/MapboxMaps/Foundation/Enablable.swift; sourceTree = "<group>"; };
 		F721A48BD0A46AAE0A16A853FFD9D428 /* CompassDirectionLong.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CompassDirectionLong.strings; path = "pt-BR.lproj/CompassDirectionLong.strings"; sourceTree = "<group>"; };
 		F8E2D9EAEEEADFF7C12DD5AFE61E8476 /* CameraOptionsInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraOptionsInterpolator.swift; path = Sources/MapboxMaps/Camera/CameraOptionsInterpolator.swift; sourceTree = "<group>"; };
-		F950BDD879878EBDCB1091B34249B68A /* Pods-MapBox_Implementation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MapBox_Implementation"; path = Pods_MapBox_Implementation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F950BDD879878EBDCB1091B34249B68A /* Pods_MapBox_Implementation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapBox_Implementation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3094F13709EC3843D925A9CAE73CDC /* Pods-MapBox_Implementation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapBox_Implementation.release.xcconfig"; sourceTree = "<group>"; };
 		FC678D84E7C7F2D2F54902CEBBA5CA4C /* VectorSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VectorSource.swift; path = Sources/MapboxMaps/Style/Generated/Sources/VectorSource.swift; sourceTree = "<group>"; };
 		FD4D9413BFEA2E7AF6757ED3CC45D202 /* SnapshotOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotOverlay.swift; path = Sources/MapboxMaps/Snapshot/SnapshotOverlay.swift; sourceTree = "<group>"; };
@@ -828,9 +831,9 @@
 		05DC66D109F7F2B52F7C8707273F3A2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E6CD80661687B39BD2D45E45AA724F7 /* MapboxMaps */,
-				F950BDD879878EBDCB1091B34249B68A /* Pods-MapBox_Implementation */,
-				504CE9473CDB9F0B95C72BA4BF8F4273 /* Turf */,
+				6E6CD80661687B39BD2D45E45AA724F7 /* MapboxMaps.framework */,
+				F950BDD879878EBDCB1091B34249B68A /* Pods_MapBox_Implementation.framework */,
+				504CE9473CDB9F0B95C72BA4BF8F4273 /* Turf.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -866,7 +869,6 @@
 				3692AAC7C31675CA16676184B91B5CB5 /* Frameworks */,
 				98CB88DEBC3CEB2B1604C8AC05F7590E /* Support Files */,
 			);
-			name = MapboxMobileEvents;
 			path = MapboxMobileEvents;
 			sourceTree = "<group>";
 		};
@@ -906,7 +908,6 @@
 				AD4DFADC973BB8296BD43294766946F3 /* Turf.swift */,
 				99E13801CB6ABFBDFC5C0B499B45BEE7 /* Support Files */,
 			);
-			name = Turf;
 			path = Turf;
 			sourceTree = "<group>";
 		};
@@ -955,7 +956,6 @@
 				9A41988679F408A264AC89517BDBAA95 /* Frameworks */,
 				E8103A370AEDA7E6B59B33AD3F61B913 /* Support Files */,
 			);
-			name = MapboxCoreMaps;
 			path = MapboxCoreMaps;
 			sourceTree = "<group>";
 		};
@@ -965,7 +965,6 @@
 				AA5C3DAB3ABE3E48434B9C92DF8DF90B /* Frameworks */,
 				399BB3A143C7BD82B70292C0EA73F44B /* Support Files */,
 			);
-			name = MapboxCommon;
 			path = MapboxCommon;
 			sourceTree = "<group>";
 		};
@@ -1276,7 +1275,6 @@
 				40127D8EBF23694EF459CF34D120F078 /* Resources */,
 				A45FFADEBB8743C4E6856B2252C66C4B /* Support Files */,
 			);
-			name = MapboxMaps;
 			path = MapboxMaps;
 			sourceTree = "<group>";
 		};
@@ -1388,7 +1386,7 @@
 			);
 			name = MapboxMaps;
 			productName = MapboxMaps;
-			productReference = 6E6CD80661687B39BD2D45E45AA724F7 /* MapboxMaps */;
+			productReference = 6E6CD80661687B39BD2D45E45AA724F7 /* MapboxMaps.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		63629DE708089AEB0E5262EA2D623DF4 /* Pods-MapBox_Implementation */ = {
@@ -1411,7 +1409,7 @@
 			);
 			name = "Pods-MapBox_Implementation";
 			productName = Pods_MapBox_Implementation;
-			productReference = F950BDD879878EBDCB1091B34249B68A /* Pods-MapBox_Implementation */;
+			productReference = F950BDD879878EBDCB1091B34249B68A /* Pods_MapBox_Implementation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65241501A90844E924E6FEC62E9C051D /* Turf */ = {
@@ -1429,7 +1427,7 @@
 			);
 			name = Turf;
 			productName = Turf;
-			productReference = 504CE9473CDB9F0B95C72BA4BF8F4273 /* Turf */;
+			productReference = 504CE9473CDB9F0B95C72BA4BF8F4273 /* Turf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
