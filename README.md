@@ -44,3 +44,19 @@ To install cocoapods
  Run application and Boom…! Map Clustering is on your screen.
 You can also follow the instructions in the doc in link given below
 https://docs.mapbox.com/ios/maps/guides/install/
+
+<p align="center">
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png" />
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png
+https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Select%20Mapbox%20Maps%20then%20Add%20packages.png
+![alt tag]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20Packages%20from%20SPM.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples_2.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples_3.png
+![alt text]https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples_4.png
+
+
