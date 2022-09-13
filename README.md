@@ -46,9 +46,9 @@ https://docs.mapbox.com/ios/maps/guides/install/
 
 <p align="center">
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png" />
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20Packages%20from%20SPM.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Select%20Mapbox%20Maps%20then%20Add%20packages.png"width="500>
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png" />
