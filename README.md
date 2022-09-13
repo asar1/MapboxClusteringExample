@@ -32,7 +32,7 @@ Navigate to File > Swift Packages > Add Package Dependency in your Xcode project
 Enter the URL https://github.com/mapbox/mapbox-maps-ios.git in top right corner and  hit Enter to pull in the package, and then select Add Package.
 ### 2. Cocoapods
 Add the following to your Podfile: 
-* *pod 'MapboxMaps', '10.8.1'*
+* *pod 'MapboxMaps'*
 ##### To install cocoapods open Terminal
 * *cd ~ (go to the project directory)*
 * *pod install*
