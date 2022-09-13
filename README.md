@@ -1,5 +1,5 @@
 # MapboxClusteringExample
-This sample application demonstrate Cluster maps  in Mapbox Maps SDK Which are an excellent tool for determining the number of data points in a specific location. This example app demonstrates how to display a large number of markers on a map using marker clusters.
+This sample application demonstrate Cluster maps  in Mapbox Maps SDK Which are an excellent tool for determining the number of data points in a specific location. This example app reveals how to display a large number of markers on a map using marker clusters.
 
 # Requirements
 1. Xcode 12 or above
@@ -46,13 +46,13 @@ https://docs.mapbox.com/ios/maps/guides/install/
 # Screenshot
 
 <p align="center">
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png" width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png" />
  <imgsrc="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Select%20Mapbox%20Maps%20then%20Add%20packages.png"width="500>
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20Packages%20from%20SPM.png"width="500>
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png"width="500>
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png"width="500>
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png"width="500>
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png"width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20Packages%20from%20SPM.png" />
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png" />
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png" />
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png" />
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png" />
  </p> 
 <br>
 <br>
