@@ -33,11 +33,10 @@ Enter the URL https://github.com/mapbox/mapbox-maps-ios.git in top right corner 
 ### 2. Cocoapods
 Add the following to your Podfile: 
 * *pod 'MapboxMaps', '10.8.1'*
-To install cocoapods
-* *open Terminal*
+##### To install cocoapods open Terminal
 * *cd ~ (go to the project directory)*
 * *pod install*
-
+ 
 # Final
  Run application and Boom…! Map Clustering is on your screen.
 You can also follow the instructions in the doc in link given below
