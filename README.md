@@ -7,18 +7,18 @@ This sample application demonstrate Cluster maps  in Mapbox Maps SDK Which are a
 
 # Setup
 Firstly,  Sign up to Mapbox account and go to the Account page. This Mapbox SDK requires two critical pieces of information from your Mapbox account.
-## A public access token: 
+### A public access token: 
 you can copy or create public access token from your accounts token page. Open your project's Info.plist file and add an MBXAccessToken key with the value of your public access token to configure it.
-## A secret access token containing the (Downloads:Read scope):
+### A secret access token containing the (Downloads:Read scope):
 You have to create secret access token from your accounts token page. Give your token a name and tick the box next to the Downloads:Read scope on the token creation screen. You will only have one chance to copy it somewhere safe. To download the Mapbox SDK, save your secret token in a .netrc file in your home directory (not your project folder). 
-### Terminal command lines for .netrc file
+#### Terminal command lines for .netrc file
 To create .netrc file
 * *open Terminal*
 * *cd ~ (go to the home directory)*
 * *touch .netrc (create file)*
 * *open .netrc (open .netrc)*
 * *Set required data.*
-.netrc file should be like this
+##### .netrc file should be like this
 * *machine api.mapbox.com*
 * *login mapbox*
 * *password <secret_key_created_from_your_mapbox_account>*
@@ -53,6 +53,9 @@ https://docs.mapbox.com/ios/maps/guides/install/
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png" />
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png" />
+ </p> 
+<br>
+<br>
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples.png" width="270">
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples_2.png" width="270">
  <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ClusteringExamples_3.png" width="270">
