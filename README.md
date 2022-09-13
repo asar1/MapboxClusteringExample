@@ -12,19 +12,19 @@ you can copy or create public access token from your accounts token page. Open y
 ### A secret access token containing the (Downloads:Read scope):
 You have to create secret access token from your accounts token page. Give your token a name and tick the box next to the Downloads:Read scope on the token creation screen. You will only have one chance to copy it somewhere safe. To download the Mapbox SDK, save your secret token in a .netrc file in your home directory (not your project folder). 
 #### Terminal command lines for .netrc file
-To create .netrc file
 * *open Terminal*
 * *cd ~ (go to the home directory)*
 * *touch .netrc (create file)*
 * *open .netrc (open .netrc)*
 * *Set required data.*
+
 ##### .netrc file should be like this
+
 * *machine api.mapbox.com*
 * *login mapbox*
 * *password <secret_key_created_from_your_mapbox_account>*
-* *Save*
 
-By keeping your secret token out of your application's source code, you may avoid mistakenly disclosing it.
+Save the file by clicking Command+S key, by keeping your secret token out of your application's source code, you may avoid mistakenly disclosing it.
  
 # Add Dependency
 ### 1. Swift Packages Manager
@@ -46,13 +46,13 @@ https://docs.mapbox.com/ios/maps/guides/install/
 # Screenshot
 
 <p align="center">
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png" />
- <imgsrc="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Select%20Mapbox%20Maps%20then%20Add%20packages.png" />
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20Packages%20from%20SPM.png" />
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png" />
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png" />
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png" />
- <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png" />
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/AccessTokens.png" width="500>
+ <imgsrc="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Select%20Mapbox%20Maps%20then%20Add%20packages.png"width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20Packages%20from%20SPM.png"width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Add%20github%20packages%20URL.png"width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/MBXAccessToken%20and%20value.png"width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/Setup.netrc.png"width="500>
+ <img src="https://github.com/asar1/MapboxClusteringExample/blob/main/Screenshot/ViewController%20Setup.png"width="500>
  </p> 
 <br>
 <br>
